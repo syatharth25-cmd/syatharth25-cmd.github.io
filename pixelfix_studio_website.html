@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PixelFix Studio - beginner-friendly logo, photo and video editing tutorials and creative resources.">
+<title>PixelFix Studio | Create. Edit. Inspire.</title>
+<style>
+:root{--bg:#0b1020;--panel:#121a30;--panel2:#18233e;--text:#f4f7ff;--muted:#aeb9d2;--blue:#6d8cff;--cyan:#4de0d0;--line:rgba(255,255,255,.11)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}
+header{position:sticky;top:0;z-index:5;background:rgba(11,16,32,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:1.25rem;font-weight:800;letter-spacing:.2px}.brand span{color:var(--cyan)}
+.links{display:flex;gap:22px;flex-wrap:wrap;color:var(--muted);font-size:.93rem}.links a:hover{color:white}
+.hero{padding:88px 0 76px;background:radial-gradient(ellipse at 80% 20%,rgba(109,140,255,.25),transparent 38%),radial-gradient(ellipse at 10% 80%,rgba(77,224,208,.13),transparent 35%)}
+.hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:40px;align-items:center}.eyebrow{color:var(--cyan);font-weight:700;text-transform:uppercase;letter-spacing:2px;font-size:.78rem}
+h1{font-size:clamp(2.6rem,6vw,4.8rem);line-height:1.04;margin:15px 0 20px;letter-spacing:-2px}.hero p{color:var(--muted);font-size:1.12rem;max-width:620px}
+.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;padding:12px 19px;border-radius:12px;font-weight:700;background:linear-gradient(120deg,var(--blue),#8c70ff);color:white}.btn.alt{background:transparent;border:1px solid var(--line)}
+.art{min-height:300px;border:1px solid var(--line);border-radius:26px;padding:24px;background:linear-gradient(145deg,#1b2a50,#10172a);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.art:before,.art:after{content:"";position:absolute;border-radius:50%;filter:blur(2px)}.art:before{width:210px;height:210px;background:rgba(109,140,255,.35);top:-70px;right:-50px}.art:after{width:170px;height:170px;background:rgba(77,224,208,.22);bottom:-60px;left:-30px}
+.art-card{position:relative;z-index:1;width:85%;padding:22px;border-radius:18px;background:rgba(8,13,27,.72);border:1px solid rgba(255,255,255,.18);transform:rotate(-4deg);box-shadow:0 22px 55px rgba(0,0,0,.28)}
+.art-card strong{font-size:1.35rem}.art-icons{display:flex;gap:10px;margin-top:18px}.art-icons span{background:var(--panel2);border-radius:12px;padding:13px;font-size:1.4rem}
+section{padding:68px 0}.section-head{max-width:680px;margin-bottom:30px}.section-head h2{font-size:2rem;margin:0 0 8px}.section-head p{color:var(--muted);margin:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:23px}.card .emoji{font-size:1.8rem}.card h3{margin:12px 0 7px}.card p{color:var(--muted);margin:0 0 15px}.small-link{color:var(--cyan);font-weight:700}
+.band{background:linear-gradient(120deg,rgba(109,140,255,.15),rgba(77,224,208,.08));border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.step{padding:20px;border-radius:16px;background:rgba(18,26,48,.8);border:1px solid var(--line)}.num{color:var(--cyan);font-weight:800;font-size:.85rem}
+.resource-list{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.resource{padding:18px;border:1px solid var(--line);border-radius:15px;background:var(--panel)}
+footer{border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:.9rem}.footer-row{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+.notice{font-size:.86rem;color:var(--muted);margin-top:18px}
+@media(max-width:760px){.hero-grid{grid-template-columns:1fr}.grid,.steps{grid-template-columns:1fr}.resource-list{grid-template-columns:1fr}.links{gap:12px;font-size:.82rem}nav{align-items:flex-start;padding:15px 0;flex-direction:column}.hero{padding:60px 0}}
+</style>
+</head>
+<body>
+<header>
+  <nav class="wrap">
+    <a class="brand" href="#home">PixelFix <span>Studio</span></a>
+    <div class="links">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#learn">Learn</a><a href="#resources">Resources</a><a href="#about">About</a>
+    </div>
+  </nav>
+</header>
+<main>
+  <section class="hero" id="home">
+    <div class="wrap hero-grid">
+      <div>
+        <div class="eyebrow">Your creative learning space</div>
+        <h1>Create.<br>Edit. Inspire.</h1>
+        <p>Welcome to PixelFix Studio — a beginner-friendly place to explore logo design, photo editing and video editing. Learn useful skills, find creative ideas and build your next project.</p>
+        <div class="actions"><a class="btn" href="#services">Explore Services</a><a class="btn alt" href="#learn">Start Learning</a></div>
+      </div>
+      <div class="art" aria-label="Creative editing illustration">
+        <div class="art-card"><div class="eyebrow">PIXELFIX CREATIVE LAB</div><strong>Make something<br>awesome today.</strong><div class="art-icons"><span>🎨</span><span>📸</span><span>🎬</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <div class="section-head"><h2>Explore What You Can Create</h2><p>Choose a creative area and start with simple, practical learning guides.</p></div>
+      <div class="grid">
+        <article class="card"><div class="emoji">🎨</div><h3>Logo Design</h3><p>Learn logo basics, color combinations, typography and how to plan a clean brand identity.</p><a class="small-link" href="#learn">Explore logo lessons →</a></article>
+        <article class="card"><div class="emoji">📸</div><h3>Photo Editing</h3><p>Discover image enhancement, cropping, lighting, color correction and creative photo ideas.</p><a class="small-link" href="#learn">Explore photo lessons →</a></article>
+        <article class="card"><div class="emoji">🎬</div><h3>Video Editing</h3><p>Understand timelines, transitions, titles, sound and simple editing workflows for videos.</p><a class="small-link" href="#learn">Explore video lessons →</a></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="learn">
+    <div class="wrap">
+      <div class="section-head"><h2>Learn Step by Step</h2><p>Start small, practise regularly and improve your creative skills one project at a time.</p></div>
+      <div class="steps">
+        <div class="step"><div class="num">STEP 01</div><h3>Pick a skill</h3><p>Choose logo, photo or video editing based on what you want to make.</p></div>
+        <div class="step"><div class="num">STEP 02</div><h3>Follow a guide</h3><p>Use beginner-friendly tutorials and understand the tools before starting.</p></div>
+        <div class="step"><div class="num">STEP 03</div><h3>Create a project</h3><p>Practise with your own original designs and keep improving your work.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resources">
+    <div class="wrap">
+      <div class="section-head"><h2>Free Creative Resources</h2><p>Useful starter ideas to help you plan your next design or edit.</p></div>
+      <div class="resource-list">
+        <div class="resource"><strong>🧩 Logo planning checklist</strong><p class="notice">Write down the brand name, audience, style and two or three main colors before designing.</p></div>
+        <div class="resource"><strong>🖼️ Photo editing checklist</strong><p class="notice">Check exposure, crop, color balance and sharpness before exporting your image.</p></div>
+        <div class="resource"><strong>🎞️ Video editing checklist</strong><p class="notice">Organize clips, trim pauses, add readable titles and check audio before exporting.</p></div>
+        <div class="resource"><strong>💡 Creative project idea</strong><p class="notice">Make a simple poster, a before-and-after photo edit or a 15-second video intro.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="about">
+    <div class="wrap">
+      <div class="section-head"><h2>About PixelFix Studio</h2><p>PixelFix Studio is a creative learning project focused on making design and editing easier for beginners. Our goal is to share clear explanations, useful ideas and practical resources.</p></div>
+      <p class="notice">Contact: Add your own contact email or contact form here before publishing. Only publish contact details you are comfortable sharing.</p>
+    </div>
+  </section>
+</main>
+<footer><div class="wrap footer-row"><span>© 2026 PixelFix Studio</span><span>Create. Edit. Inspire.</span></div></footer>
+</body>
+</html>
